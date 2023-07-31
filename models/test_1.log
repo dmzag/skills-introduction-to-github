@@ -1,0 +1,94 @@
+Exporter version: 3.3.1, Blender version: 3.6.1
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  F:\Work\Vtuber_game\Babylon_js\
+	Python World class constructor completed
+	processing begun of mesh:  wall_001.003
+		processing begun of material:  wallMaterial.004
+			processing texture wallMaze_04_2048
+		Custom split normals with tangents being used
+		num positions      :  704
+		num normals        :  704
+		num tangents       :  2816
+		num uvs            :  1408
+		num uvs2           :  1408
+		num colors         :  0
+		num triangles      :  352
+	processing begun of mesh:  wall_001.004
+		processing begun of material:  wallMaterial.004
+		registered as also a user of material:  wallMaterial.004
+		Custom split normals with tangents being used
+		num positions      :  704
+		num normals        :  704
+		num tangents       :  2816
+		num uvs            :  1408
+		num uvs2           :  1408
+		num colors         :  0
+		num triangles      :  352
+	processing begun of mesh:  wall_001.005
+		processing begun of material:  wallMaterial.004
+		registered as also a user of material:  wallMaterial.004
+		Custom split normals with tangents being used
+		num positions      :  704
+		num normals        :  704
+		num tangents       :  2816
+		num uvs            :  1408
+		num uvs2           :  1408
+		num colors         :  0
+		num triangles      :  352
+	processing begun of mesh:  wall_001.006
+		processing begun of material:  wallMaterial.004
+		registered as also a user of material:  wallMaterial.004
+		Custom split normals with tangents being used
+		num positions      :  704
+		num normals        :  704
+		num tangents       :  2816
+		num uvs            :  1408
+		num uvs2           :  1408
+		num colors         :  0
+		num triangles      :  352
+	processing begun of camera (UniversalCamera):  Camera.003
+	processing begun of mesh:  Stone_2.014
+		processing begun of material:  Checker.001
+			processing texture stones_02_2048
+		Custom split normals with tangents being used
+		num positions      :  12800
+		num normals        :  12800
+		num tangents       :  51200
+		num uvs            :  25600
+		num uvs2           :  25600
+		num colors         :  0
+		num triangles      :  4540
+	processing begun of mesh:  Plane.002
+		processing begun of material:  Material.002
+		processing begun of material:  Material.001
+			WARNING: unsupported node type(ShaderNodeValToRGB) will trigger baking
+			WARNING: Metal channel baking required, but not possible, ignored
+			WARNING: Roughness channel baking required, but not possible, ignored
+			WARNING: Refraction channel baking required, but not possible, ignored
+			Baking texture, type: DIFFUSE, mapped using: BakingUV
+========= An error was encountered =========
+  File "C:\Users\Diman\AppData\Roaming\Blender Foundation\Blender\3.6\scripts\addons\babylon_js\json_exporter.py", line 118, in execute
+    mesh = Mesh(object, scene, self)
+  File "C:\Users\Diman\AppData\Roaming\Blender Foundation\Blender\3.6\scripts\addons\babylon_js\mesh.py", line 151, in __init__
+    recipe = BakingRecipe(bpyMesh, exporter)
+  File "C:\Users\Diman\AppData\Roaming\Blender Foundation\Blender\3.6\scripts\addons\babylon_js\materials\baking_recipe.py", line 105, in __init__
+    self.bakedMaterial.bake(bpyMesh, self)
+  File "C:\Users\Diman\AppData\Roaming\Blender Foundation\Blender\3.6\scripts\addons\babylon_js\materials\material.py", line 203, in bake
+    self.bakeChannel(DIFFUSE_TEX , 'DIFFUSE', usePNG, recipe.node_trees, bpyMesh)
+  File "C:\Users\Diman\AppData\Roaming\Blender Foundation\Blender\3.6\scripts\addons\babylon_js\materials\material.py", line 254, in bakeChannel
+    bpy.ops.object.bake(type = bake_type, use_clear = True, margin = 5, use_selected_to_active = False)
+  File "C:\Program Files (x86)\Steam\steamapps\common\Blender\3.6\scripts\modules\bpy\ops.py", line 113, in __call__
+    ret = _op_call(self.idname_py(), None, kw)
+ERROR:  Ошибка: Для запекания необходимо включить прямое/непрямое освещение или цвет
+
+========= end of processing =========
+elapsed time:  0 min, 1.6033 secs

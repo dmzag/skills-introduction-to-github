@@ -1,0 +1,90 @@
+Exporter version: 3.3.1, Blender version: 3.6.1
+========= Conversion from Blender to Babylon.js =========
+	Scene settings used :
+		Inline textures     :  false
+		Material Type       :  PBR
+		Positions Precision :  4
+		Normals Precision   :  3
+		UVs Precision       :  3
+		Vert Color Precision:  3
+		Mat Weight Precision:  2
+		Keep Z-up r-handed  :  no
+		Texture directory   :  F:\Work\Vtuber_game\Babylon_js\
+	Python World class constructor completed
+	processing begun of mesh:  wall_001.003
+		processing begun of material:  wallMaterial.004
+			processing texture wallMaze_04_512
+		Custom split normals with tangents being used
+		num positions      :  704
+		num normals        :  704
+		num tangents       :  2816
+		num uvs            :  1408
+		num uvs2           :  1408
+		num colors         :  0
+		num triangles      :  352
+	processing begun of mesh:  wall_001.004
+		processing begun of material:  wallMaterial.004
+		registered as also a user of material:  wallMaterial.004
+		Custom split normals with tangents being used
+		num positions      :  704
+		num normals        :  704
+		num tangents       :  2816
+		num uvs            :  1408
+		num uvs2           :  1408
+		num colors         :  0
+		num triangles      :  352
+	processing begun of mesh:  wall_001.005
+		processing begun of material:  wallMaterial.004
+		registered as also a user of material:  wallMaterial.004
+		Custom split normals with tangents being used
+		num positions      :  704
+		num normals        :  704
+		num tangents       :  2816
+		num uvs            :  1408
+		num uvs2           :  1408
+		num colors         :  0
+		num triangles      :  352
+	processing begun of mesh:  wall_001.006
+		processing begun of material:  wallMaterial.004
+		registered as also a user of material:  wallMaterial.004
+		Custom split normals with tangents being used
+		num positions      :  704
+		num normals        :  704
+		num tangents       :  2816
+		num uvs            :  1408
+		num uvs2           :  1408
+		num colors         :  0
+		num triangles      :  352
+	processing begun of mesh:  Stone_2.014
+		processing begun of material:  Checker.001
+			processing texture stones_02_512
+		Custom split normals with tangents being used
+		num positions      :  12808
+		num normals        :  12808
+		num tangents       :  51232
+		num uvs            :  25616
+		num uvs2           :  25616
+		num colors         :  0
+		num triangles      :  4540
+	processing begun of mesh:  Plane.002
+		processing begun of material:  Material.002
+			processing texture Grass_texture_05_512
+		num positions      :  400
+		num normals        :  400
+		num tangents       :  0
+		num uvs            :  800
+		num uvs2           :  800
+		num colors         :  0
+		num triangles      :  200
+	processing begun of camera (UniversalCamera):  Camera.003
+	processing begun of light (DIRECTIONAL):  Sun.001
+========= Writing of JSON file started =========
+	writing mesh:  wall_001.003
+	writing mesh:  wall_001.004
+	writing mesh:  wall_001.005
+	writing mesh:  wall_001.006
+	writing mesh:  Stone_2.014
+	writing mesh:  Plane.002
+========= Writing of JSON file completed =========
+========= end of processing =========
+elapsed time:  0 min, 0.7621 secs
